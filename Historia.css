@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco:#FFFFFF;
+    --footer: #292925; /*#45453B*/
+    --preto: black;
+    --amarelo: #FFD700;
+    --verde:#6B8E23;
+    --bege: #D3D3B9;
+}
+
+.menu {
+    display:flex;
+    list-style: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu li {
+    position: relative;
+    float: left;
+	margin-top:20px;
+    margin-left: 70px;
+	margin-right:70px;
+}
+
+.menu li a {
+    text-decoration: none;
+    padding: 5px ;
+    display: block;
+}
+
+.menu li a:hover {
+    color: var(--amarelo);
+    text-shadow: 0px 0px 5px var(--amarelo);
+}
+
+.menu li ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    display:none;
+}
+.menu li:hover ul, .menu li.over ul{
+    display:block;
+}
+
+.fundobanner{
+    background: url(img/img1.png) center center no-repeat fixed;
+    background-size:cover;
+}
+
+nav{
+    width: 100%;
+    padding: 20px;
+    background-color: var(--footer);
+    display: flex;
+    justify-content: space-around;
+}
+
+nav h1{
+    color: var(--branco);
+    font-size: 40px;
+}
+
+nav a{
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.fundobanner{
+    background: url(img/img1.jpg) center center no-repeat fixed;
+    background-size:cover;
+}
+
+.texto p{
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: var(--branco);
+    margin-bottom: -40px;
+}
+
+main h1{
+    color: var(--branco);
+    font-size: 50px;
+    padding: 30px;
+}
+
+main h3{
+    color: var(--branco);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.fundo-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-color: var(--bege);
+    margin-bottom: -30px;
+}
+
+.proximo {
+    display: flex;
+    justify-content: end; /* Centraliza o botão */
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.proximo a {
+    display: inline-block;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: var(--verde);
+    color: var(--branco);
+    border: solid 3px var(--amarelo);
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.proximo a:hover {
+    color: var(--amarelo);
+    background-color: var(--footer);
+    text-shadow: 0px 0px 5px var(--amarelo);
+}
+
+    
+footer{
+    width: 100%;
+    height: 100%; /*385*/
+    padding: 20px 20px;
+    background:var(--footer);
+    display: flex;
+    justify-content: space-around;
+}
+
+.part1{
+    Color:var(--branco);
+    font-weight: bold;
+    font-size: 50px;
+    margin: auto 0;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0;
+}
+
+.part2 a{
+    color:var(--branco);
+    text-decoration: none;
+    margin: 10px ;
+    font-size: 18px;
+}
+
+.part2 a:hover {
+    color: var(--amarelo);
+    text-shadow: 0px 0px 5p var(--amarelo);
+}
+
+.part3{
+    color: var(--branco);
+    margin: auto 140px;
+}
+
+.part3 h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.part3 label{
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.part3 input,textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
