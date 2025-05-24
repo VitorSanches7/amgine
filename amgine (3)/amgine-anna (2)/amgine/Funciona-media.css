@@ -1,0 +1,117 @@
+:root {
+    --branco:#FFFFFF;
+    --footer: #292925; /*#45453B*/
+    --preto: black;
+    --amarelo: #FFD700;
+    --verde:#6B8E23;
+    --bege: #D3D3B9;
+}
+
+*{
+    box-sizing: border-box;
+    width: 100;
+  /*  overflow-x: hidden; */
+}
+
+.menu-toggle {
+    display: none;
+    background-color: var(--footer);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    color: var(--footer);
+}
+
+@media screen and (min-width: 756px) and (max-width: 1360px) {
+    .menu-toggle {
+        display: block;
+    }
+    
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+
+
+    .menu li {
+        display: none;
+        padding: 10px;
+    }
+
+    .menu.open li {
+        display: block;
+    }
+
+    
+    .menu a{
+        display: none;
+        padding: 10px;
+    }
+
+    .menu.open a{
+        display: block;
+    }
+
+
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* Estilos para telas pequenas (smartphones) */
+@media screen and (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        transition: all 0.3s ease;
+    }
+
+    .menu li {
+        display: none;
+        padding: 10px;
+    }
+
+    .menu.open li {
+        display: block;
+    }
+
+    .menu a{
+        display: none;
+        padding: 10px;
+    }
+
+    .menu.open a{
+        display: block;
+    }
+
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .part1 {
+        padding: 6px;
+    }
+
+    .part2 {
+        padding: 6px;
+    }
+
+    .part3 {
+        padding: 6px;
+    }
+
+
+}
