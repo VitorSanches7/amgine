@@ -93,6 +93,19 @@
         display: block;
     }
 
+   .fundobanner{
+    height: 4400px !important;
+   }
+
+    .proximo a {
+    display: block !important;          
+    margin: 0 auto !important;           
+    font-size: 20px !important;
+    text-align: center !important;       
+    width: 90% !important;
+    margin: 20px 20px !important;
+    }
+
     
     footer {
         flex-direction: column;

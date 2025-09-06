@@ -1,39 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Sriracha&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Sriracha', sans-serif;
     box-sizing: border-box;
+    word-spacing: 2px;
 }
 
 :root {
-    --branco:#FFFFFF;
-    --footer: #292925; /*#45453B*/
+    --branco: #FFFFFF;
+    --footer: #292925;
     --preto: black;
     --amarelo: #FFD700;
-    --verde:#6B8E23;
+    --verde: #6B8E23;
     --bege: #D3D3B9;
 }
 
 .menu {
-    display:flex;
+    display: flex;
     list-style: none;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Sriracha', sans-serif;
 }
 
 .menu li {
     position: relative;
     float: left;
-	margin-top:20px;
+    margin-top: 20px;
     margin-left: 70px;
-	margin-right:70px;
+    margin-right: 70px;
 }
 
 .menu li a {
     text-decoration: none;
-    padding: 5px ;
+    padding: 5px;
     display: block;
+    word-spacing: 4px;
 }
 
 .menu li a:hover {
@@ -41,22 +43,24 @@
     text-shadow: 0px 0px 5px var(--amarelo);
 }
 
-.menu li ul{
-    position:absolute;
-    top:25px;
-    left:0;
-    display:none;
-}
-.menu li:hover ul, .menu li.over ul{
-    display:block;
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    display: none;
 }
 
-.fundobanner{
-    background: url(img/img1.png) center center no-repeat fixed;
-    background-size:cover;
+.menu li:hover ul,
+.menu li.over ul {
+    display: block;
 }
 
-nav{
+.fundobanner {
+    background: url(img/img1.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+nav {
     width: 100%;
     padding: 20px;
     background-color: var(--footer);
@@ -64,47 +68,49 @@ nav{
     justify-content: space-around;
 }
 
-nav h1{
+nav h1 {
     color: var(--branco);
     font-size: 40px;
+    word-spacing: 3px;
+    font-family: 'Keania One', sans-serif;
 }
 
-nav a{
+nav a {
     color: var(--branco);
     text-decoration: none;
     font-size: 25px;
+    word-spacing: 3px;
+    font-family: 'Sriracha', sans-serif;
 }
 
-.fundobanner{
-    background: url(img/img1.jpg) center center no-repeat fixed;
-    background-size:cover;
-}
-
-.texto p{
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    text-align: justify;
+.texto p {
     font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 50px;
+    margin-bottom: -50px;
     color: var(--branco);
-    margin-bottom: -40px;
+    word-spacing: 1px;
+    text-align: justify;
+    font-family: 'Sriracha', Arial, sans-serif;
 }
 
-main h1{
+main h1 {
     color: var(--branco);
     font-size: 50px;
     padding: 30px;
+    word-spacing: 3px;
+    font-family: 'Keania One', sans-serif;
 }
 
-main h3{
+main h3 {
     color: var(--branco);
     font-size: 35px;
     text-align: center;
     margin-bottom: 90px;
+    word-spacing: 3px;
+    font-family: 'Keania One', sans-serif;
 }
 
-.fundo-video{
+.fundo-video {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +122,7 @@ main h3{
 
 .proximo {
     display: flex;
-    justify-content: end; /* Centraliza o botão */
+    justify-content: end;
     padding: 30px;
     margin-top: 30px;
 }
@@ -132,6 +138,8 @@ main h3{
     text-decoration: none;
     text-align: center;
     transition: 0.3s;
+    word-spacing: 3px;
+    font-family: 'Sriracha', sans-serif;
 }
 
 .proximo a:hover {
@@ -140,62 +148,48 @@ main h3{
     text-shadow: 0px 0px 5px var(--amarelo);
 }
 
-    
-footer{
+footer {
     width: 100%;
-    height: 100%; /*385*/
-    padding: 20px 20px;
-    background:var(--footer);
+    padding: 40px 20px;
+    background: var(--footer);
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
-.part1{
-    Color:var(--branco);
-    font-weight: bold;
-    font-size: 50px;
-    margin: auto 0;
-}
-
-.part2{
+.part1 {
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     margin: auto 0;
 }
 
-.part2 a{
-    color:var(--branco);
+.part1 img {
+    max-width: 240px;
+    height: auto;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto 0;
+    min-width: 180px;
+}
+
+.part2 a {
+    color: var(--branco);
     text-decoration: none;
-    margin: 10px ;
+    margin: 10px 0;
     font-size: 18px;
+    transition: all 0.3s ease;
+    word-spacing: 2px;
+    font-family: 'Sriracha', sans-serif;
 }
 
 .part2 a:hover {
     color: var(--amarelo);
-    text-shadow: 0px 0px 5p var(--amarelo);
-}
-
-.part3{
-    color: var(--branco);
-    margin: auto 140px;
-}
-
-.part3 h3{
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-
-.part3 label{
-    font-size: 16px;
-    margin-bottom: 5px;
-    display: block;
-}
-
-.part3 input,textarea{
-    width: 100%;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    font-size: 15px;
+    text-shadow: 0px 0px 6px var(--amarelo);
+    transform: translateX(4px);
 }

@@ -59,6 +59,7 @@
         display: block;
     }
 
+   
 
     main h1 {
         font-size: 40px;
@@ -163,6 +164,13 @@
         display: block;
     }
 
+     .meio-banner h1{
+         font-size: 40px !important;
+    }
+
+     .meio-banner p{
+         font-size: 30px !important;
+    }
 
     .fundo-bege{
        height: 1250px !important;
@@ -179,6 +187,14 @@
         width: 100% !important;
         height: 100% !important;
         overflow-x: hidden;
+    }
+
+   
+
+    .carousel {
+    width: 100% !important;
+    max-width: 900px !important;
+    margin: auto;
     }
 
     .barra-verde{

@@ -52,8 +52,17 @@
         display: block;
     }
 
+     .fundo-prototipo {
+       height: 400px !important;
+    }
+
+    .fundo-prototipo h1{
+        font-size: 55px !important;
+        margin-top: 45px !important;
+    }
+
     .fundo-bege {
-        height: 2800px !important;
+        height: 2100px !important;
      }
 
     .linha-do-tempo{
@@ -98,8 +107,17 @@
         display: block;
     }
 
+     .fundo-prototipo {
+       height: 400px !important;
+    }
+
+    .fundo-prototipo h1{
+        font-size: 55px !important;
+        margin-top: 45px !important;
+    }
+
     .fundo-bege {
-       height: 2800px !important;
+       height: 2100px !important;
     }
 
     .fund-bege p{
@@ -112,8 +130,9 @@
     }
 
     .prot-centro img{
-        width: 450px;
-        height: 450px;
+        max-width: 100%;
+        height: auto;
+        display: block;
     }
 
     footer {
