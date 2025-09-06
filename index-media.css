@@ -72,8 +72,9 @@
     }
 
     .fundo-bege{
-        height: 1250px !important;
+        height: 1100px !important;
      }
+     
      
     .container-fundo-bege{
         display: flex;
@@ -112,6 +113,41 @@
      .botao-hist a {
          width: 80% !important;
      }
+
+
+        /* Ajuste das imagens nos quadrados para telas pequenas */
+.quadrado {
+    width: 90% !important;  /* quadrado ocupa quase toda a tela */
+    max-width: 380px !important;       /* limite de tamanho */
+    height: auto !important; /* altura ajusta conforme conteúdo */
+    margin: 10px 0 !important;         /* espaçamento entre quadrados */
+}
+
+.quadrado .image {
+    width: 100% !important; /* ocupa toda a largura do quadrado */
+    height: auto !important; /* mantém proporção da imagem */
+    max-height: 200px !important;       /* opcional: limite de altura */
+    margin-bottom: 10px !important;     /* espaço entre imagem e texto */
+    border-radius: 5% !important;  
+    object-fit: cover !important;       /* garante que a imagem preencha o      container sem distorcer */
+}
+
+.quadrado img {
+    width: 100% !important;       /* imagem ocupa toda a largura do quadrado */
+    height: auto !important;      /* altura se ajusta automaticamente mantendo proporção */
+    max-height: 200px !important; /* limite máximo de altura */
+    object-fit: cover !important; /* mantém proporção sem distorcer */
+    border-radius: 5% !important; /* cantos arredondados */
+    display: block !important;    /* remove espaçamento extra abaixo da imagem */
+    margin: 0 auto !important;    /* centraliza horizontalmente */
+}
+
+
+.texto {
+    font-size: 28px !important; /* ajusta tamanho do texto para telas pequenas */
+    width: 90% !important;      /* texto não ultrapassa largura do quadrado */
+    height: auto !important;
+}
 
    
     footer {
@@ -165,15 +201,15 @@
     }
 
      .meio-banner h1{
-         font-size: 40px !important;
+         font-size: 50px !important;
     }
 
      .meio-banner p{
-         font-size: 30px !important;
+         font-size: 40px !important;
     }
 
     .fundo-bege{
-       height: 1250px !important;
+       height: 1100px !important;
     }
     
     .no-pc{
@@ -189,7 +225,40 @@
         overflow-x: hidden;
     }
 
-   
+   /* Ajuste das imagens nos quadrados para telas pequenas */
+.quadrado {
+    width: 90% !important;  /* quadrado ocupa quase toda a tela */
+    max-width: 380px !important;       /* limite de tamanho */
+    height: auto !important; /* altura ajusta conforme conteúdo */
+    margin: 10px 0 !important;         /* espaçamento entre quadrados */
+}
+
+.quadrado .image {
+    width: 100% !important; /* ocupa toda a largura do quadrado */
+    height: auto !important; /* mantém proporção da imagem */
+    max-height: 200px !important;       /* opcional: limite de altura */
+    margin-bottom: 10px !important;     /* espaço entre imagem e texto */
+    border-radius: 5% !important;  
+    object-fit: cover !important;       /* garante que a imagem preencha o      container sem distorcer */
+}
+
+.quadrado img {
+    width: 100% !important;       /* imagem ocupa toda a largura do quadrado */
+    height: auto !important;      /* altura se ajusta automaticamente mantendo proporção */
+    max-height: 200px !important; /* limite máximo de altura */
+    object-fit: cover !important; /* mantém proporção sem distorcer */
+    border-radius: 5% !important; /* cantos arredondados */
+    display: block !important;    /* remove espaçamento extra abaixo da imagem */
+    margin: 0 auto !important;    /* centraliza horizontalmente */
+}
+
+
+.texto {
+    font-size: 28px !important; /* ajusta tamanho do texto para telas pequenas */
+    width: 90% !important;      /* texto não ultrapassa largura do quadrado */
+    height: auto !important;
+}
+
 
     .carousel {
     width: 100% !important;
