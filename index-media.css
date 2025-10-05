@@ -22,6 +22,11 @@
     color: var(--footer);
 }
 
+ .menu-toggle img{
+    height: 35px;
+ }
+
+
 @media screen and (min-width: 1361px){
     .no-cel{
         display: none !important;

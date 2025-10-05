@@ -153,6 +153,13 @@ main h1 {
     height: 32px;
 }
 
+.placeholder {
+    display: inline-block;
+    width: 32px;  /* mesmo tamanho do ícone */
+    height: 32px;
+}
+
+
 /* FOOTER */
 footer {
     width: 100%;

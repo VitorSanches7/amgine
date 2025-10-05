@@ -23,6 +23,9 @@
     color: var(--footer);
 }
 
+ .menu-toggle img{
+    height: 35px;
+ }
 
 
 /* Estilos para telas médias (tablets) */
